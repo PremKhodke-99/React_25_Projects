@@ -1,11 +1,15 @@
 import React from 'react'
 import './App.css'
 import Accordian from './Components/Accordian/Accordian'
+import RandomColor from './Components/Random-color/RandomColor'
 
 function App() {
   return (
     <>
-      <Accordian />  
+      {/* Accordian Component*/}
+      <Accordian />
+      {/*Random Color Component  */}
+      <RandomColor />
     </>
   )
 }

@@ -3,6 +3,7 @@ import './App.css'
 import Accordian from './Components/Accordian/Accordian'
 import RandomColor from './Components/Random-color/RandomColor'
 import StarRating from './Components/StarRating/StarRating'
+import Corousel from './Components/Corousel/Corousel'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       {/*Random Color Component  */}
       <RandomColor />
       {/* Star Rating Component */}
-      <StarRating noOfStars={10}/>
+      <StarRating noOfStars={10} />
+      {/* Carousel Image Slider component */}
+      <Corousel url={'https://picsum.photos/v2/list'} page={1} limit={10} />
     </>
   )
 }

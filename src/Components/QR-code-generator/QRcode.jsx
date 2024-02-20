@@ -15,7 +15,7 @@ const QRcode = () => {
         <div>
             <h1>QR Code Generator</h1>
             <div>
-                <input type="text"
+                <input type="text"y
                     name="ge-code"
                     onChange={(e) => setInput(e.target.value)}
                     value={input}

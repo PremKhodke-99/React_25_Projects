@@ -7,6 +7,7 @@ import Corousel from './Components/Corousel/Corousel'
 import LoadMoreData from './Components/LoadmoreData/LoadMoreData'
 import TreeViewMenu from './Components/TreeViewMenu/TreeViewMenu'
 import menu from './Components/TreeViewMenu/data'
+import QRcode from './Components/QR-code-generator/QRCode'
 
 function App() {
   return (
@@ -27,7 +28,10 @@ function App() {
       {/* <LoadMoreData /> */}
       
       {/* Tree View Component (Side navigation) */}
-      <TreeViewMenu menu={menu}/>
+      {/* <TreeViewMenu menu={menu}/> */}
+
+      {/* QR Code Generator */}
+      <QRcode />
     </>
   )
 }

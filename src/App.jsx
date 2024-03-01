@@ -10,6 +10,7 @@ import menu from './Components/TreeViewMenu/data'
 import QRcode from './Components/QR-code-generator/QRCode'
 import LightDarkMode from './Components/Light-Dark-Mode/LightDarkMode'
 import ScrollIndicator from './Components/Scroll-Indicator/ScrollIndicator'
+import Tabtest from './Components/CutomTabs/Tabtest'
 
 function App() {
   return (
@@ -39,7 +40,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator  */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Custom Tabs Component */}
+      <Tabtest />
 
     </>
   )

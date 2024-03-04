@@ -11,6 +11,7 @@ import QRcode from './Components/QR-code-generator/QRCode'
 import LightDarkMode from './Components/Light-Dark-Mode/LightDarkMode'
 import ScrollIndicator from './Components/Scroll-Indicator/ScrollIndicator'
 import Tabtest from './Components/CutomTabs/Tabtest'
+import Modaltest from './Components/ModalPopup/modal-test'
 
 function App() {
   return (
@@ -20,16 +21,16 @@ function App() {
 
       {/*Random Color Component  */}
       {/* <RandomColor /> */}
-      
+
       {/* Star Rating Component */}
       {/* <StarRating noOfStars={10} /> */}
-      
+
       {/* Carousel Image Slider component */}
       {/* <Corousel url={'https://picsum.photos/v2/list'} page={1} limit={10} /> */}
-      
+
       {/* Load more component */}
       {/* <LoadMoreData /> */}
-      
+
       {/* Tree View Component (Side navigation) */}
       {/* <TreeViewMenu menu={menu}/> */}
 
@@ -43,8 +44,10 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom Tabs Component */}
-      <Tabtest />
+      {/* <Tabtest /> */}
 
+      {/* Custom Modal Component */}
+      <Modaltest />
     </>
   )
 }

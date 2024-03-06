@@ -12,6 +12,7 @@ import LightDarkMode from './Components/Light-Dark-Mode/LightDarkMode'
 import ScrollIndicator from './Components/Scroll-Indicator/ScrollIndicator'
 import Tabtest from './Components/CutomTabs/Tabtest'
 import Modaltest from './Components/ModalPopup/modal-test'
+import SearchAutoComplete from './Components/SearchAutoComplete/SearchAutoComplete'
 
 function App() {
   return (
@@ -47,7 +48,10 @@ function App() {
       {/* <Tabtest /> */}
 
       {/* Custom Modal Component */}
-      <Modaltest />
+      {/* <Modaltest /> */}
+
+      {/* Search Auto Complete Component */}
+      <SearchAutoComplete />
     </>
   )
 }

@@ -13,6 +13,7 @@ import ScrollIndicator from './Components/Scroll-Indicator/ScrollIndicator'
 import Tabtest from './Components/CutomTabs/Tabtest'
 import Modaltest from './Components/ModalPopup/modal-test'
 import SearchAutoComplete from './Components/SearchAutoComplete/SearchAutoComplete'
+import TicTacToe from './Components/TicTacToe/TicTacToe'
 
 function App() {
   return (
@@ -51,7 +52,10 @@ function App() {
       {/* <Modaltest /> */}
 
       {/* Search Auto Complete Component */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      {/* Tic Tac Toe Component */}
+      <TicTacToe />
     </>
   )
 }

@@ -14,6 +14,8 @@ import Tabtest from './Components/CutomTabs/Tabtest'
 import Modaltest from './Components/ModalPopup/modal-test'
 import SearchAutoComplete from './Components/SearchAutoComplete/SearchAutoComplete'
 import TicTacToe from './Components/TicTacToe/TicTacToe'
+import FeatureFlagGlobalState from './Components/FeatureFlag/context'
+import FeatureFlag from './Components/FeatureFlag/FeatureFlag'
 
 function App() {
   return (
@@ -55,7 +57,12 @@ function App() {
       {/* <SearchAutoComplete /> */}
 
       {/* Tic Tac Toe Component */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag Component */}
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </>
   )
 }
